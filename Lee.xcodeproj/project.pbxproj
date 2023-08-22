@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		455A31F1285BF86300F9C3DA /* 209-MinimumSizeSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A31F0285BF86300F9C3DA /* 209-MinimumSizeSubarraySum.swift */; };
 		457C68282862856F00A3F752 /* 1695-MaximumErasureValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C68272862856F00A3F752 /* 1695-MaximumErasureValue.swift */; };
+		45CB43242A95719F00C70A32 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB43232A95719F00C70A32 /* DFS.swift */; };
 		D304CAB02844783D00EB6F94 /* 1-TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304CAAF2844783D00EB6F94 /* 1-TwoSum.swift */; };
 		D304CAB22844796200EB6F94 /* 20-ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304CAB12844796200EB6F94 /* 20-ValidParentheses.swift */; };
 		D304CAB42844803C00EB6F94 /* 105-Construct Binary Tree from Preorder and Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304CAB32844803C00EB6F94 /* 105-Construct Binary Tree from Preorder and Inorder Traversal.swift */; };
@@ -107,6 +108,7 @@
 /* Begin PBXFileReference section */
 		455A31F0285BF86300F9C3DA /* 209-MinimumSizeSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209-MinimumSizeSubarraySum.swift"; sourceTree = "<group>"; };
 		457C68272862856F00A3F752 /* 1695-MaximumErasureValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1695-MaximumErasureValue.swift"; sourceTree = "<group>"; };
+		45CB43232A95719F00C70A32 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		D304CAAF2844783D00EB6F94 /* 1-TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-TwoSum.swift"; sourceTree = "<group>"; };
 		D304CAB12844796200EB6F94 /* 20-ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20-ValidParentheses.swift"; sourceTree = "<group>"; };
 		D304CAB32844803C00EB6F94 /* 105-Construct Binary Tree from Preorder and Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "105-Construct Binary Tree from Preorder and Inorder Traversal.swift"; sourceTree = "<group>"; };
@@ -218,13 +220,13 @@
 		4554272B2A69016500164BCA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				45CB43222A95702F00C70A32 /* Tree */,
 				4554272D2A6901A200164BCA /* Searching */,
 				4554272C2A69018500164BCA /* Sorting */,
 				D3736C022408C91100AB6BAE /* LinkedList.swift */,
 				D364599B2444363C00A841B5 /* Recursion.swift */,
 				D3174D07245EC93B00C0AEAC /* Array.swift */,
 				D3A0FCE12476A21C0012AFB2 /* String.swift */,
-				D3DD5446249C9B4D006BD6D4 /* Tree.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -239,8 +241,17 @@
 		4554272D2A6901A200164BCA /* Searching */ = {
 			isa = PBXGroup;
 			children = (
+				45CB43232A95719F00C70A32 /* DFS.swift */,
 			);
 			path = Searching;
+			sourceTree = "<group>";
+		};
+		45CB43222A95702F00C70A32 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				D3DD5446249C9B4D006BD6D4 /* Tree.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 		D3736BE42408C8F500AB6BAE = {
@@ -507,6 +518,7 @@
 				D359A0CD28486C7E0016A001 /* 17-Letter Combinations of a Phone Number.swift in Sources */,
 				D347BE062807B6E50030BB8B /* 66-PlueOne.swift in Sources */,
 				D352FB63283AF66E00BB1EF6 /* 733-FloodFill.swift in Sources */,
+				45CB43242A95719F00C70A32 /* DFS.swift in Sources */,
 				D37360E7283C48370066BC7C /* 617-MergeTwoBinaryTrees.swift in Sources */,
 				D3736C032408C91100AB6BAE /* LinkedList.swift in Sources */,
 				D3791741281AB7CA00AD4EE6 /* 24-SwapNodesInPairs.swift in Sources */,

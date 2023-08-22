@@ -41,16 +41,27 @@ extension TreeNode: Equatable {
 }
 
 class Solution {
-
+    
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
+        guard let element = root else { return [] }
+        
+        print(element.val)
+        
+        preorderTraversal(element.left)
+        preorderTraversal(element.right)
+    }
+    
+    func preorderTraversal_a(_ root: TreeNode?) -> [Int] {
         guard let root = root else {return []}
 
-        var stack: [TreeNode] = []
         var result: [Int] = []
+        var stack: [TreeNode] = []
         stack.append(root)
+        
 
         while let node = stack.popLast() {
-
+            
+            // 前序遍历，所以先保存结果
             result.append(node.val)
 
             if let right = node.right {
