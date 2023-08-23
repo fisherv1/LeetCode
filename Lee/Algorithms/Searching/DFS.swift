@@ -79,3 +79,28 @@ struct BFS {
         return res
     }
 }
+
+// 分治法模板 Template
+
+/*
+ 
+ func traversal(_ root: TreeNode?) -> ResultType {
+ 
+    // nil or leaf
+ 
+    if root == nil {
+      //do something and return
+    }
+ 
+    // Divide
+    let left = traversal(root.left)
+    let right = traversal(root.right)
+ 
+    // conquer
+    let result = Merge from left and right
+ 
+    return result
+ }
+ 
+ 
+ */
